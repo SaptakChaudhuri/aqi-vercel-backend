@@ -1,0 +1,8 @@
+{
+  "name": "aqi-vercel-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/fetch-aqi.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/fetch-aqi", "dest": "api/fetch-aqi.js" }
+  ]
+}
